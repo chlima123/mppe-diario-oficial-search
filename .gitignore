@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Working dirs and caches
+work/
+text/
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Secrets — never commit
+.env
+*.token.json
+google_token.json
+google_client_secret.json
+
+# Logs
+*.log
